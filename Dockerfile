@@ -1,4 +1,4 @@
-FROM alpine:3.10.1
+FROM arm64v8/alpine:3.10.5
 LABEL maintainer="jbbodart@yahoo.com"
 
 ENV REFRESH_INTERVAL=600
